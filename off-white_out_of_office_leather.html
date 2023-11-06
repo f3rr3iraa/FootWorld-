@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <title>FootWorld | Off-White</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/dunk.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Scripts do Bootstrap (jQuery e Popper.js) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- JavaScript do Bootstrap (opcional, mas recomendado) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="inicial.html">
+                <span class="lead fw-normal mb-0 letra_cinza"
+                    style="color: #3e3e3e; font-size: 24px;"><b>Foot</b></span><span
+                    class="lead fw-normal mb-0 letra_cinza" style="color: #185f16; font-size: 24px;"><b>world</b></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item dropdown" onmouseover="showmenu()" onmouseout="hidemenu()">
+                        <a class="nav-link active dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Sapatilhas</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="sapatilhasSubmenu">
+                            <li>
+                                <a class="dropdown-item" href="./novidades.html" onmouseover="hideSubmenu()">Novidades</a>
+                                <a class="dropdown-item" href="./ate_200.html" onmouseover="hideSubmenu()">Até 200€</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li onmouseover="showNikeSubmenu(true)" onmouseout="clearSubmenu()">
+                                <a class="dropdown-item" href="./nike.html">Nike<span
+                                        style='font-size:15px;'>&#9205;</span></a>
+                                <ul class="submenu" id="NikeSubmenu">
+                                    <a class="dropdown-item" href="./dunk.html">Dunk</a>
+                                    <a class="dropdown-item" href="./jordan.html">Jordan</a>
+                                    <a class="dropdown-item" href="./air_force.html">Air Force</a>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item " href="./new_balance.html">New Balance</a></li>
+                            <li><a class="dropdown-item" href="./off-white.html">Off-White</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./acessorios.html">Acessórios</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./sobre_nos.html">Sobre Nós</a></li>
+                </ul>
+                <form class="d-flex">
+                    <a class="my-button button-spacing" href="./promocoes.html"
+                        style="text-decoration: none;">Promoções</a>
+
+                    <button class="btn btn-outline-dark button-spacing btn-border" type="submit">
+                        <i class="bi-cart-fill me-1"></i>
+                        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+        <!-- Product section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="row gx-4 gx-lg-5">
+
+                    <div class="col-md-7" >
+                        <center>
+                            <img class="col-md-5 centered-img" src="./img/foto_sapatilhas/off_-_white/off-white_out_of_office_leather[1].jpg" alt="..." />
+                            <img class="col-md-5 centered-img" src="./img/foto_sapatilhas/off_-_white/off-white_out_of_office_leather[1.1].jpg" alt="..." />
+                            <img class="col-md-5 centered-img" src="./img/foto_sapatilhas/off_-_white/off-white_out_of_office_leather[1.2].jpg" alt="..." />
+                            <img class="col-md-5 centered-img" src="./img/foto_sapatilhas/off_-_white/off-white_out_of_office_leather[1.3].jpg" alt="..." />
+                        </center>
+                    </div>
+                
+                    <div class="col-md-5">
+                        <h1 class="display-5 fw-bolder">Off-White</h1>
+                        <p>Out Of Office leather</p><br><br>
+                        <div class="fs-5 mb-5">
+                            <span>475 €</span>
+                        </div>
+
+                        <div>
+                            <button type="button" class="tamanho-button disabled" value="39" onclick="selectButton(this)" disabled>39</button>
+                            <button type="button" class="tamanho-button disabled" value="40" onclick="selectButton(this)" disabled>40</button>
+                            <button type="button" class="tamanho-button" value="40.5" onclick="selectButton(this)">40.5</button>
+                            <button type="button" class="tamanho-button" value="41" onclick="selectButton(this)">41</button>
+                            <button type="button" class="tamanho-button" value="42" onclick="selectButton(this)">42</button>
+                            <button type="button" class="tamanho-button" value="42.5" onclick="selectButton(this)">42.5</button>
+                            <button type="button" class="tamanho-button disabled" value="43" onclick="selectButton(this)" disabled>43</button>
+                            <button type="button" class="tamanho-button" value="44" onclick="selectButton(this)">44</button>
+                          </div>
+                          <span><i class="bi bi-envelope-fill"></i> <small>Se precisares de mais informações, não hesites em enviar mensagem para o nosso Instagram @SneakerWorld ou em pedir aqui.</small></span>
+                          <br><br><br>
+                        <div class="d-flex">
+                            <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
+                            <button class="btn btn-outline-dark flex-shrink-0" type="button">
+                                <i class="bi-cart-fill me-1"></i>
+                                Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        
+        
+        <!-- Related items section-->
+        <section id="novidades" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3>PRODUTOS RELACIONADOS</h3>
+                    </div>
+    
+                
+                    <div class="col-md-4">
+                        <center>
+                            <a href="./off-white_out_of_office_green.html">
+                                <div style="width: 200px; height: 200px;"
+                                  class="card-img-top image-transition d-flex align-items-center justify-content-center">
+                                  <img src="./img/foto_sapatilhas/off_-_white/off-white_out_of_office_green[1].jpg" alt="Imagem Padrão"
+                                    class="image-default img-fluid">
+                                  <img src="./img/foto_sapatilhas/off_-_white/off-white_out_of_office_green[1.1].jpg"
+                                    alt="Imagem com Hover" class="image-hover img-fluid">
+                                </div>
+                              </a>
+                              <div class="text-center">
+                                <h3>Out Of Office Low</h3>
+                                <p>Preço: 625 €</p>
+                              </div>
+                        </center>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <center>
+                            <a href="./off-white_out_of_office_bege.html">
+                                <div style="width: 200px; height: 200px;" class="card-img-top image-transition d-flex align-items-center justify-content-center">
+                                    <img src="./img/foto_sapatilhas/off_-_white/off-white_out_of_office_bege[1].jpg" alt="Imagem Padrão" class="image-default img-fluid">
+                                    <img src="./img/foto_sapatilhas/off_-_white/off-white_out_of_office_bege[1.1].jpg" alt="Imagem com Hover" class="image-hover img-fluid">
+                                </div>
+                            </a>
+                            <div class="text-center">
+                                <h3>Out Of Office Low</h3>
+                                <p>Preço: 360 €</p>
+                            </div>
+                        </center>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <center>
+                            <a href="./off-white_out_of_office_ooo.html">
+                                <div style="width: 200px; height: 200px;" class="card-img-top image-transition d-flex align-items-center justify-content-center">
+                                    <img src="./img/foto_sapatilhas/off_-_white/off-white_out_of_office_ooo[1].jpg" alt="Imagem Padrão" class="image-default img-fluid">
+                                    <img src="./img/foto_sapatilhas/off_-_white/off-white_out_of_office_ooo[1.1].jpg" alt="Imagem com Hover" class="image-hover img-fluid">
+                                </div>
+                            </a>
+                            <div class="text-center">
+                                <h3>Out Of Office Low</h3>
+                                <p>Preço: 560 €</p>
+                            </div>
+                        </center>
+                    </div>
+                  
+    
+    
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5 class="text-white mb-3">Apoio ao Cliente</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li><a class="text-white mb-3" href="./perguntas_frequentes.html" class="smaller-text">PERGUNTAS
+                                    FREQUENTES</a></li>
+                            <li><a class="text-white mb-3" href="./termos_e_condicoes.html" class="smaller-text">TERMOS E
+                                    CONDIÇÕES </a>
+                            </li>
+                            <li><a class="text-white mb-3" href="./trocas_e_devoluções.html" class="smaller-text">TROCAS E
+                                    DEVOLUÇÕES</a></li>
+                            <li><a class="text-white mb-3" href="./contactos.html">CONTACTOS</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 vertical-line">
+                        <h5 class="text-white mb-3">CONTACTOS DIRETOS</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li><a class="text-white mb-3" href="https://www.instagram.com/rodrigoferreira02_/"
+                                    target="_blank">Instagram</a></li>
+                            <li><a class="text-white mb-3" href="mailto: geral@FootWorld.pt"
+                                    target="_blank">geral@FootWorld.pt</a></li>
+                        </ul>
+                        <h5 class="text-white mb-3">MÉTODOS DE ENTREGA</h5>
+                        <img src="./img/CTT.png" width="70" height="35">
+                        <img src="./img/dhl.jpeg" width="70" height="35">
+    
+                    </div>
+                    <div class="col-md-4 vertical-line">
+                        <h5 class="text-white mb-3">METODOS DE PAGAMENTO</h5>
+                        <img src="./img/pagamentos.png" width="300" height="110">
+                    </div>
+    
+                </div>
+            </div>
+            <div class="container">
+                <p class="m-0 text-center text-white">@FootWorld</p>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+    
+    </html>
